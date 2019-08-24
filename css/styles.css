@@ -1,0 +1,142 @@
+@font-face{
+    font-family: "Big Noodle";
+    src: url("//static.playoverwatch.com/fonts/big-noodle-too-oblique-1eed6dbdd0.woff");
+}
+
+@font-face{
+    font-family: "Futura";
+    src: url("//static.playoverwatch.com/fonts/FuturaNo2D-DemiBold-8635bfcad5.woff");
+}
+
+body{
+    background:url(../images/background-overwatch-top.jpg);
+}
+header{
+    display: flex;
+    font-family: "Big Noodle";
+    font-size: 50px;
+    color: #f6f6f6;
+    align-items: center;
+    height: 205px;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+}
+header img{
+    width: 30%;
+}
+#title{
+    display: flex;
+    align-items: center;
+}
+#get_profile{
+    text-align: center;
+    font-family: "Futura";
+    color: #f6f6f6;
+    font-size: 20px;
+}
+#get_profile div{
+    margin: 8px;
+}
+#get_profile input[type=text]{
+    font-family: "Futura";
+    font-size: 30px;
+    text-align: center;
+    height: 60px;
+    width: 400px;
+    border: none;
+    border-radius: 4px;
+}
+#get_profile button{
+    font-family: "Futura";
+    font-size: 28px;
+    color: #f6f6f6;
+    width: 200px;
+    background-color: #f19512;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+}
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 2%;
+    width: 100%;
+    color: #f6f6f6;
+    font-family: "Futura";
+    font-size: 80%;
+    text-align: center;
+}
+#loading{
+    text-align: center;
+    font-family: "Big Noodle";
+    font-size: 50px;
+    color: #f6f6f6;
+    text-shadow: #f6f6f6;
+}
+#content{
+    font-family: "Big Noodle";
+    font-size: 70px;
+    color: #f6f6f6;
+    text-align: center;
+}
+#stats td{
+    font-family: "Big Noodle";
+    font-size: 150px;
+    text-align: center;
+    color: #f6f6f6
+}
+#scn, #scp{
+    text-shadow: 5px 5px 8px #f19512;
+}
+#gtn, #gtp{
+    text-shadow: 5px 5px 8px #c81af5;
+}
+#ssn, #ssp{
+    text-shadow: 5px 5px 8px #40ce44;
+}
+#stats img{
+    width: 95%;
+}
+.hoverable {
+    cursor:default;
+}
+.hoverable .hover {
+    display:none;
+}
+.hoverable:hover .normal {
+    display:none;
+}
+.hoverable:hover .hover {
+    display:inline;
+}
+a:link, a:visited {
+    color: #f6f6f6; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #f6f6f6;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*RWD*/
+
+@media screen and (min-width: 1600px){
+    body{
+        background-position: center top;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 760px){
+    header{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    header{
+        font-size: 20px;
+    }
+}

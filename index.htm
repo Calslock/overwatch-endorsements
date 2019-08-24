@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Overwatch profile and endorsement viewer</title>
+        <meta name="viewport" charset="UTF-8">
+        <meta name="theme-color" content="#131313">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body scroll="no" style="overflow: hidden">
+        <div id="main_container">
+            <header>
+                <img src="images/OW_Logo_White.png"> 
+                <div id="title">Profile and Endorsements viewer</div>
+            </header>
+            <div id="get_profile">
+                <div id="field_battletag">
+                    <input type="text" id="text_battletag" placeholder="Your BattleTag™" spellcheck="false">
+                </div>
+                <div id="platform">
+                    <input type="radio" name="platform" id="pc" checked onclick="switchplatform(0)">PC
+                    <input type="radio" name="platform" id="psn" onclick="switchplatform(1)">PS4
+                    <input type="radio" name="platform" id="xbl" onclick="switchplatform(1)">XB1
+                </div>
+                <div id="get_button">
+                    <button onclick="parsesitedata()">CHECK</button>
+                </div>
+            </div>
+            <footer>
+                Overwatch™, Overwatch logo and BattleTag™ are registered trademarks and property of Blizzard Entertainment, Inc. Design and coding by Calslock. Made with JQuery and love ❤️
+            </footer>
+            </div>
+    </body>
+</html>
