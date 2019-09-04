@@ -6,4 +6,4 @@ Simple site providing information about endorsements in Overwatch. Data provided
 # license
 HTML, CSS and JS files are provided on MIT License. All images and logos are property of Blizzard Entertainment, Inc. Overwatch™, Overwatch logo and BattleTag™ are registered trademarks and property of Blizzard Entertainment, Inc.
 
-Meaning - I took images from press kit, and avatars and fonts are parsed directly from their site. But with the code do whatever you want. You don't have to, but I'd be nice, I you'd just give credit :).
+Meaning - I took images from press kit, and avatars and fonts are parsed directly from their site. But with the code do whatever you want. 
